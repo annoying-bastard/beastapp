@@ -1,0 +1,17 @@
+{
+  "name": "beastapp",
+  "version": "0.0.1",
+  "description": "showcase for cross platform distribution with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . BEASTMODE --ignore=noed_modules/electron-* --all --asar"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
