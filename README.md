@@ -22,6 +22,6 @@ in the project root directory
 
 ####  Disclaimer
 
-user discretion is adviced
-this is an extremely crude hack
-dijkstra would not have liked this
+user discretion is adviced  
+this is an extremely crude hack  
+dijkstra would not have liked this  
