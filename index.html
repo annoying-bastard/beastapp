@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/style.css"
   </head>
   <body>
-    <h1>BEASTS!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    <ul id='app'>
+    <div class="container" role='main'>
+      <h1>BEASTS!</h1>
+      <!-- All of the Node.js APIs are available in this renderer process. -->
+      <table id='app' class="table table-condensed">
 
-    </ul>
+      </table>
 
-    <button type="button" name="start" onclick="window.beasts.start()">start</button>
-    <button type="button" name="stop" onclick="window.beasts.stop()">stop</button>
+      <button class="btn btn-small" type="button" name="start" onclick="window.beasts.start()">start</button>
+      <button class="btn btn-small" type="button" name="stop" onclick="window.beasts.stop()">stop</button>
+    </div>
   </body>
 
   <script>

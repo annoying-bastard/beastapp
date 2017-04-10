@@ -14,7 +14,7 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 200, height: 400})
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
@@ -39,7 +39,6 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
-console.log(electron.screen);
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {

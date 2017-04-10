@@ -1,4 +1,3 @@
-  console.log(window);
   window.beasts = (() => {
     var plan = [
       '####################',
@@ -83,9 +82,13 @@
       app.innerHTML = null;
       state.plan.map((curr) => curr.join(''))
         .map((curr) => {
-          let node = document.createElement('li')
-          node.innerText = curr
-          app.appendChild(node)
+          let tr = document.createElement('tr')
+          let td = document.createElement('td')
+          let div = document.createElement('div')
+          div.innerText = curr
+          td.appendChild(div)
+          tr.appendChild(td)
+          app.appendChild(tr)
         })
     }
 
