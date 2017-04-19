@@ -1,2 +1,4 @@
 node_modules
 BEASTMODE*
+coverage
+.nyc_*

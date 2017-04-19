@@ -4,7 +4,7 @@
   "description": "showcase for cross platform distribution with electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test nyc --reporter=html --reporter=text mocha ./test/unit/index.js",
     "start": "electron .",
     "build": "electron-packager . BEASTMODE --ignore=node_modules/electron-* --asar"
   },
@@ -13,6 +13,9 @@
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "electron": "^1.6.2",
-    "electron-packager": "^8.6.0"
+    "electron-packager": "^8.6.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0"
   }
 }
