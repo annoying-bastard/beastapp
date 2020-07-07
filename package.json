@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^3.3.7",
-    "electron": "^1.6.2",
+    "electron": "^9.1.0",
     "electron-packager": "^8.6.0",
     "expect.js": "^0.3.1",
     "mocha": "^3.2.0",
